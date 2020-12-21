@@ -2,6 +2,11 @@
 
 A new Flutter project. Created by Slidy
 
+# Home/Posts
+
+![Posts1](./Posts1.png)
+
+![Posts2](./Posts2.png)
 ## Getting Started
 
 This project is a starting point for a Flutter application.

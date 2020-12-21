@@ -12,7 +12,9 @@ abstract class _PostsControllerBase with Store {
 
   final PostRepository _repository;
 
-  _PostsControllerBase(this._repository);
+  _PostsControllerBase(this._repository){
+     this.fetchPosts();
+}   
 
   @observable
   ObservableFuture<List<PostsModel>> posts;
